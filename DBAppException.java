@@ -1,10 +1,14 @@
 
-public class DBAppException extends Exception{
+public class DBAppException extends Exception
+{
 
-	public DBAppException(){
+	public DBAppException()
+	{
 		super();
 	}
-	public DBAppException(String msg){
+	
+	public DBAppException(String msg)
+	{
 		super(msg);
 	}
 }
